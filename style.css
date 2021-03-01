@@ -1,0 +1,37 @@
+html {
+    min-height: 100%;
+    background: url(./image/drum.jfif) center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 30px;
+    text-align: center;
+    padding-top: 100px;
+    align-content: center;
+}
+
+.item {
+    border: 5px solid;
+    height: 80px;
+    width: 90px;
+    text-align: center;
+    background-color: black;
+}
+
+audio {
+    display: none;
+}
